@@ -13,11 +13,15 @@ export const lightTheme = {
   background: '#FAFFF0',
   primary: '#8BC34A',
   textColor: '#162909',
+
+  secondary: '#C1DB9A',
 };
 export const darkTheme = {
   background: '#1C2316',
   primary: '#79A942',
   textColor: '#ECF1E2',
+
+  secondary: '#B8D193',
 };
 
 // Light Mode: #8BC34A
