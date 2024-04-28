@@ -1,25 +1,23 @@
-import {processColor} from 'react-native';
-
 export const COLOR = {
   transparent: 'transparent',
   // Black color variants
-  black: processColor('rgba(0,0,0,1)'),
+  black: 'rgba(0,0,0,1)',
   // White color variants
-  white: processColor('#FFFFFF'),
+  white: '#FFFFFF',
 
   // base colors
-  primary: processColor('#8BC34A'),
+  primary: '#8BC34A',
 };
 
 export const lightTheme = {
-  background: processColor('#FAFFF0'),
-  primary: processColor('#8BC34A'),
-  textColor: processColor('#162909'),
+  background: '#FAFFF0',
+  primary: '#8BC34A',
+  textColor: '#162909',
 };
 export const darkTheme = {
-  background: processColor('#1C2316'),
-  primary: processColor('#79A942'),
-  textColor: processColor('#ECF1E2'),
+  background: '#1C2316',
+  primary: '#79A942',
+  textColor: '#ECF1E2',
 };
 
 // Light Mode: #8BC34A
