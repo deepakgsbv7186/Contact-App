@@ -2,12 +2,16 @@ import React, {useEffect} from 'react';
 import {PermissionsAndroid, StatusBar} from 'react-native';
 import Contacts from 'react-native-contacts';
 import FlashMessage from 'react-native-flash-message';
+import {useSelector} from 'react-redux';
 import {FONT} from './assets/fonts';
 import RootNavigation from './navigations/RootNavigation';
 import {COLOR} from './utils/theme/colors';
 import {textScale} from './utils/theme/responsive';
 
 export default function App() {
+  const {mode} = useSelector(state => state.theme);
+  const statusBarStyle = mode === 'dark' ? 'light-content' : 'dark-content';
+
   // useEffect(() => {
   //   PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_CONTACTS, {
   //     title: 'Contacts',
@@ -32,7 +36,8 @@ export default function App() {
     <>
       <StatusBar
         translucent
-        barStyle={'light-content'}
+        barStyle={statusBarStyle}
+        animated={true}
         backgroundColor={COLOR.transparent}
       />
       <RootNavigation />

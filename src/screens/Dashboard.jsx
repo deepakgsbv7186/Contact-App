@@ -1,4 +1,11 @@
-import {StyleSheet, Switch, Text, View} from 'react-native';
+import React from 'react';
+import {View, Text, StyleSheet, Switch} from 'react-native';
+import Animated, {
+  useSharedValue,
+  withSpring,
+  useAnimatedStyle,
+  interpolateColor,
+} from 'react-native-reanimated';
 import {darkTheme, lightTheme} from '../utils/theme/colors';
 import {FONT} from '../assets/fonts';
 import {textScale} from '../utils/theme/responsive';
@@ -10,26 +17,38 @@ export default function Dashboard() {
   const {mode} = useSelector(state => state.theme);
   console.log('🚀 ~ Dashboard ~ mode:', mode);
 
+  const springValue = useSharedValue(1); // Initialize the spring value
+
   const handleSwitch = () => {
     // Toggle between 'dark' and 'light' modes based on the current mode
     dispatch(changeMode(mode === 'dark' ? 'light' : 'dark'));
+    springValue.value = withSpring(springValue.value === 1 ? 0 : 1); // Toggle the spring value for animation
   };
 
   const currentTheme = mode === 'dark' ? darkTheme : lightTheme;
 
+  const animatedStyle = useAnimatedStyle(() => {
+    return {
+      backgroundColor: interpolateColor(
+        springValue.value,
+        [0, 1],
+        [darkTheme.background, lightTheme.background],
+      ),
+    };
+  });
+
   return (
-    <View
-      style={{...styles.container, backgroundColor: currentTheme.background}}>
+    <Animated.View style={[styles.container, animatedStyle]}>
       <Switch
         trackColor={{false: lightTheme.primary, true: darkTheme.primary}}
         thumbColor={currentTheme.secondary}
         onValueChange={handleSwitch}
         value={mode === 'dark'}
       />
-      <Text style={{...styles.text, color: currentTheme.textColor}}>
+      <Text style={[styles.text, {color: currentTheme.textColor}]}>
         Dashboard
       </Text>
-    </View>
+    </Animated.View>
   );
 }
 
