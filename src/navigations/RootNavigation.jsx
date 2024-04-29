@@ -1,6 +1,6 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Dashboard from '../screens/Dashboard';
+import BottomTabs from '../screens/bottomTabs';
 
 const Stack = createNativeStackNavigator();
 export default function RootNavigation() {
@@ -14,7 +14,7 @@ const MainStack = () => {
   return (
     <Stack.Navigator
       screenOptions={{headerShown: false, animation: 'slide_from_right'}}>
-      <Stack.Screen name="Dashboard" component={Dashboard} />
+      <Stack.Screen name="Dashboard" component={BottomTabs} />
     </Stack.Navigator>
   );
 };
