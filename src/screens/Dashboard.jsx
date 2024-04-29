@@ -11,6 +11,8 @@ import {FONT} from '../assets/fonts';
 import {textScale} from '../utils/theme/responsive';
 import {useDispatch, useSelector} from 'react-redux';
 import {changeMode} from '../redux/themeSlice';
+import Entypo from 'react-native-vector-icons/Entypo';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 export default function Dashboard() {
   const dispatch = useDispatch();
@@ -48,6 +50,8 @@ export default function Dashboard() {
       <Text style={[styles.text, {color: currentTheme.textColor}]}>
         Dashboard
       </Text>
+      <Entypo name="light-up" size={30} color={currentTheme.textColor} />
+      <MaterialIcons name="dark-mode" size={30} color={currentTheme.primary} />
     </Animated.View>
   );
 }
