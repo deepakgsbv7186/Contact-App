@@ -75,7 +75,7 @@
             "number": "(555) 555-5555"
           }
         ],
-        "hasThumbnail": true,
+        "hasThumbnail": false,
         "thumbnailPath": "content://com.android.contacts/display_photo/3",
         "postalAddresses": [
           {
