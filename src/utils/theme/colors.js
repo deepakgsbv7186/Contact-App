@@ -22,6 +22,7 @@ export const darkTheme = {
   textColor: '#ECF1E2',
 
   secondary: '#B8D193',
+  cardbg: '#29361C',
 };
 
 // Light Mode: #8BC34A

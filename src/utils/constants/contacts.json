@@ -1,115 +1,618 @@
 [
-    {
-        "recordID": "6b2237ee0df85980",
-        "backTitle": "",
-        "company": "",
-        "emailAddresses": [
-          {
-            "label": "work",
-            "email": "carl-jung@example.com"
-          }
-        ],
-        "familyName": "Jung",
-        "givenName": "Carl",
-        "middleName": "",
-        "jobTitle": "",
-        "phoneNumbers": [
-          {
-            "label": "mobile",
-            "number": "(555) 555-5555"
-          }
-        ],
-        "hasThumbnail": true,
-        "thumbnailPath": "content://com.android.contacts/display_photo/3",
-        "postalAddresses": [
-          {
-            "label": "home",
-            "formattedAddress": "",
-            "street": "123 Fake Street",
-            "pobox": "",
-            "neighborhood": "",
-            "city": "Sample City",
-            "region": "CA",
-            "state": "CA",
-            "postCode": "90210",
-            "country": "USA"
-          }
-        ],
-        "prefix": "MR",
-        "suffix": "",
-        "department": "",
-        "birthday": {
-          "year": 1988,
-          "month": 1,
-          "day": 1
-        },
-        "imAddresses": [
-          {
-            "username": "0123456789",
-            "service": "ICQ"
-          },
-          {
-            "username": "johndoe123",
-            "service": "Facebook"
-          }
-        ],
-        "isStarred": false
+  {
+    "recordID": "6b2237ee0df85980",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "carl-jung@example.com"
+      }
+    ],
+    "familyName": "Jung",
+    "givenName": "Carl",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": true,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "123 Fake Street",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1988,
+      "month": 1,
+      "day": 1
+    },
+    "imAddresses": [
+      {
+        "username": "0123456789",
+        "service": "ICQ"
       },
       {
-        "recordID": "6b2237ee0df85988",
-        "backTitle": "",
-        "company": "",
-        "emailAddresses": [
-          {
-            "label": "work",
-            "email": "carl-jung@example.com"
-          }
-        ],
-        "familyName": "Man",
-        "givenName": "Pack",
-        "middleName": "",
-        "jobTitle": "",
-        "phoneNumbers": [
-          {
-            "label": "mobile",
-            "number": "(555) 555-5555"
-          }
-        ],
-        "hasThumbnail": false,
-        "thumbnailPath": "content://com.android.contacts/display_photo/3",
-        "postalAddresses": [
-          {
-            "label": "home",
-            "formattedAddress": "",
-            "street": "123 Fake Street",
-            "pobox": "",
-            "neighborhood": "",
-            "city": "Sample City",
-            "region": "CA",
-            "state": "CA",
-            "postCode": "90210",
-            "country": "USA"
-          }
-        ],
-        "prefix": "MR",
-        "suffix": "",
-        "department": "",
-        "birthday": {
-          "year": 1988,
-          "month": 1,
-          "day": 1
-        },
-        "imAddresses": [
-          {
-            "username": "0123456789",
-            "service": "ICQ"
-          },
-          {
-            "username": "johndoe123",
-            "service": "Facebook"
-          }
-        ],
-        "isStarred": false
+        "username": "johndoe123",
+        "service": "Facebook"
       }
-      
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85988",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "carl-jung@example.com"
+      }
+    ],
+    "familyName": "Man",
+    "givenName": "Pack",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": false,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "123 Fake Street",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1988,
+      "month": 1,
+      "day": 1
+    },
+    "imAddresses": [
+      {
+        "username": "0123456789",
+        "service": "ICQ"
+      },
+      {
+        "username": "johndoe123",
+        "service": "Facebook"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85981",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "emma-goldman@example.com"
+      }
+    ],
+    "familyName": "Goldman",
+    "givenName": "Emma",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": true,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "456 Sample Avenue",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MS",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1970,
+      "month": 6,
+      "day": 27
+    },
+    "imAddresses": [
+      {
+        "username": "987654321",
+        "service": "WhatsApp"
+      },
+      {
+        "username": "emmagoldman",
+        "service": "Twitter"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85982",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "albert-einstein@example.com"
+      }
+    ],
+    "familyName": "Einstein",
+    "givenName": "Albert",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": false,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "789 Test Road",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "DR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1879,
+      "month": 3,
+      "day": 14
+    },
+    "imAddresses": [
+      {
+        "username": "123456789",
+        "service": "Telegram"
+      },
+      {
+        "username": "alberteinstein",
+        "service": "Instagram"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85983",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "marie-curie@example.com"
+      }
+    ],
+    "familyName": "Curie",
+    "givenName": "Marie",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": true,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "1010 Sample Lane",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MS",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1867,
+      "month": 11,
+      "day": 7
+    },
+    "imAddresses": [
+      {
+        "username": "789123456",
+        "service": "Skype"
+      },
+      {
+        "username": "mariecurie",
+        "service": "LinkedIn"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85984",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "isaac-newton@example.com"
+      }
+    ],
+    "familyName": "Newton",
+    "givenName": "Isaac",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": false,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "246 Sample Street",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "DR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1643,
+      "month": 12,
+      "day": 25
+    },
+    "imAddresses": [
+      {
+        "username": "456789123",
+        "service": "Snapchat"
+      },
+      {
+        "username": "isaacnewton",
+        "service": "Pinterest"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85985",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "nelson-mandela@example.com"
+      }
+    ],
+    "familyName": "Mandela",
+    "givenName": "Nelson",
+    "middleName": "Rolihlahla",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": true,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "369 Sample Boulevard",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1918,
+      "month": 7,
+      "day": 18
+    },
+    "imAddresses": [
+      {
+        "username": "654987321",
+        "service": "WeChat"
+      },
+      {
+        "username": "nelsonmandela",
+        "service": "Tumblr"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85986",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "maya-angelou@example.com"
+      }
+    ],
+    "familyName": "Angelou",
+    "givenName": "Maya",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": false,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "789 Sample Avenue",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MS",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1928,
+      "month": 4,
+      "day": 4
+    },
+    "imAddresses": [
+      {
+        "username": "321654987",
+        "service": "Viber"
+      },
+      {
+        "username": "mayaangelou",
+        "service": "YouTube"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85987",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "george-orwell@example.com"
+      }
+    ],
+    "familyName": "Orwell",
+    "givenName": "George",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": true,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "852 Sample Street",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1903,
+      "month": 6,
+      "day": 25
+    },
+    "imAddresses": [
+      {
+        "username": "987321654",
+        "service": "Reddit"
+      },
+      {
+        "username": "georgeorwell",
+        "service": "Flickr"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85989",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "mark-twain@example.com"
+      }
+    ],
+    "familyName": "Twain",
+    "givenName": "Mark",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": false,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "963 Sample Lane",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1835,
+      "month": 11,
+      "day": 30
+    },
+    "imAddresses": [
+      {
+        "username": "123789456",
+        "service": "Tumblr"
+      },
+      {
+        "username": "marktwain",
+        "service": "Pinterest"
+      }
+    ],
+    "isStarred": false
+  },
+  {
+    "recordID": "6b2237ee0df85990",
+    "backTitle": "",
+    "company": "",
+    "emailAddresses": [
+      {
+        "label": "work",
+        "email": "leo-tolstoy@example.com"
+      }
+    ],
+    "familyName": "Tolstoy",
+    "givenName": "Leo",
+    "middleName": "",
+    "jobTitle": "",
+    "phoneNumbers": [
+      {
+        "label": "mobile",
+        "number": "(555) 555-5555"
+      }
+    ],
+    "hasThumbnail": true,
+    "thumbnailPath": "content://com.android.contacts/display_photo/3",
+    "postalAddresses": [
+      {
+        "label": "home",
+        "formattedAddress": "",
+        "street": "741 Sample Road",
+        "pobox": "",
+        "neighborhood": "",
+        "city": "Sample City",
+        "region": "CA",
+        "state": "CA",
+        "postCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "prefix": "MR",
+    "suffix": "",
+    "department": "",
+    "birthday": {
+      "year": 1828,
+      "month": 9,
+      "day": 9
+    },
+    "imAddresses": [
+      {
+        "username": "456789123",
+        "service": "WhatsApp"
+      },
+      {
+        "username": "leotolstoy",
+        "service": "LinkedIn"
+      }
+    ],
+    "isStarred": false
+  }
 ]
